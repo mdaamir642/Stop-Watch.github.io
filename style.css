@@ -1,0 +1,59 @@
+.wrapper{
+display: flex;
+gap: 40px;
+border: 10px solid rgb(121, 3, 3);
+
+height: 350px;
+width: 20%;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+border-radius: 50%;
+}
+.numElement{
+font-size: 50px;
+font-weight: bolder;
+
+}
+.container{
+display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 900px;
+gap: 50px;
+}
+.button{
+display: flex;
+gap: 50px;
+
+
+}
+button{
+border: none;
+font-size: 40px;
+font-weight: bolder;
+padding: 10px 30px 10px 30px;
+background: linear-gradient(to top, #5a6ab9 0%, #b45a6c 100%);
+border-radius: 10px;
+box-shadow: 10px 10px 20px 5px black;
+cursor: pointer;
+}
+button:active{
+    background: linear-gradient(to top, #3b4a96 0%, #6b2432 100%);
+
+}
+
+
+
+h1{
+
+
+    font-size: 50px;
+    font-weight: 900;
+}
+body{
+ background:    linear-gradient(to right, #b96288 0%, #4a7ab1 100%);
+
+}
